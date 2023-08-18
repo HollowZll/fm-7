@@ -3,4 +3,74 @@
   margin: 0px;
   padding: 0px;
   font-size: 16px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin-top: 40%;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart {
+  width: 320px;
+  height: 497px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 13px;
+}
+
+img {
+  margin-top: 5%;
+  width: 288px;
+  height: 288px;
+  border-radius: 13px;
+}
+
+#title {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+#information {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  padding: 100px;
+}
+
+@media only screen and (min-width: 1440px) {
+  #cart {
+    width: 320px;
+    height: 497px;
+  }
+  img {
+    width: 268px;
+    height: 268px;
+  }
+  body {
+    margin-top: 20%;
+  }
 }/*# sourceMappingURL=styles.css.map */
